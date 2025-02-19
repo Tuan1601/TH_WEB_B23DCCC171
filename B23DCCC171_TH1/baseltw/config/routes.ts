@@ -36,6 +36,24 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/todo-list',
+		name: 'Todo List',
+		component: './TodoList',
+		icon: 'CheckSquareOutlined',
+	},
+	{
+		path: '/tro_choi_doan_so',
+		name: 'Trò chơi đoán số',
+		component:'./TroChoiDoanSo',
+		icon: "RocketOutlined",
+	},
+	{
+		path:'/QuanLy',
+		name: 'QuanLy',
+		component: './QuanLy',
+		icon:'ScheduleOutlined',
+	},
 
 	// DANH MUC HE THONG
 	// {
