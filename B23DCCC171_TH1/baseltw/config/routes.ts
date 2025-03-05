@@ -54,6 +54,35 @@
 		component: './QuanLy',
 		icon:'ScheduleOutlined',
 	},
+	{
+		path:'/OanTuTi',
+		name:'Oẳn Tù Tì',
+		component:'T:/Làm Web/B23DCCC171_TH1/baseltw/src/pages/OanTuTi',
+		icon:'QuestionOutlined',
+	},
+	{
+		path:'/QuanLyMon',
+		name: 'Quản Lý Đề Thi',
+		icon:'ScheduleOutlined',
+		routes: [
+			{
+				path:'QuanLyMonHoc',
+				name:'Môn Học',
+				component:'./QuanLyMonHoc/QuanLyMonHoc'
+			},
+			{
+				path:'QuanLyCauHoi',
+				name:'Câu Hỏi',
+				component:'./QuanLyMonHoc/QuanLyCauHoi'
+			},
+			{
+				path:'QuanLyDeThi',
+				name:'Đề Thi',
+				component:'./QuanLyMonHoc/QuanLyDeThi'
+			},
+
+		]
+	},
 
 	// DANH MUC HE THONG
 	// {
