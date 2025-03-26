@@ -34,9 +34,9 @@ export enum ETrangThaiPhong {
   }
   
   export const danhSachNguoiPhuTrach: INguoiPhuTrach[] = [
-    { id: 'NV001', name: 'Nguyễn Văn A' },
-    { id: 'NV002', name: 'Trần Thị B' },
-    { id: 'NV003', name: 'Lê Hoàng C' }
+    { id: 'NV001', name: 'Nguyễn Văn A', email: 'nguyenvana@example.com' },
+    { id: 'NV002', name: 'Trần Thị B', email: 'tranthib@example.com' },
+    { id: 'NV003', name: 'Lê Hoàng C', email: 'lehoangc@example.com' }
   ];
   
   export const nguoiPhuTrachText = (id: string) => {
