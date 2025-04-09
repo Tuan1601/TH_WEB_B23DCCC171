@@ -1,0 +1,57 @@
+.baoCaoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+  }
+  
+  .filterControls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .radioGroup .ant-radio-button-wrapper {
+    border-radius: 6px;
+    padding: 8px 15px;
+  }
+  
+  .datePicker .ant-picker {
+    border-radius: 6px;
+    padding: 8px;
+  }
+  
+  .appointmentCount {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background: #f0f8ff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .revenueTables {
+    margin-top: 20px;
+  }
+  
+  .revenueTables .ant-table {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .revenueTables .ant-table-thead {
+    background: #f5f5f5;
+  }
+  
